@@ -1,0 +1,12 @@
+spring:
+  profiles:
+    active: "local"
+  application:
+    name: "My1"
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - "info"
+          - "health"
